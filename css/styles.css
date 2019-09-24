@@ -16,6 +16,7 @@ body {
 h1 {
     font-size: 2.25rem;
     font-weight: 300;
+    color: #fff;
 }
 
 h1 + p {
@@ -52,3 +53,9 @@ strong { font-weight: 900; }
 /* =================
    Intro section 
    ================= */
+
+.intro {
+    background-image: url(../img/ribs.jpg);
+    background-color: #404040;
+    padding: 0 .25em 1em;
+}
