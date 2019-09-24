@@ -17,6 +17,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 300;
     color: #fff;
+    margin: 2em 0;
 }
 
 h1 + p {
@@ -24,6 +25,7 @@ h1 + p {
     font-weight: 900;
     font-size: 1.3125rem;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h2 {
@@ -40,6 +42,7 @@ h2 + p {
     color: #F18119;
     font-weight: 900;
     text-transform: uppercase;
+    order: -1;
 }
 
 .fine-print {
@@ -56,6 +59,11 @@ strong { font-weight: 900; }
 
 .intro {
     background-image: url(../img/ribs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #404040;
     padding: 0 .25em 1em;
+    display: flex;
+    flex-direction: column;
 }
