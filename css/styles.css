@@ -67,7 +67,6 @@ strong { font-weight: 900; }
 .intro {
     background-image: url(../img/ribs.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-color: #404040;
     padding: 0 .5em 2em;
@@ -84,6 +83,13 @@ strong { font-weight: 900; }
    
 .main-content {
     padding: 2em 1em;
+}
+
+.intro > *,
+.main-content > * {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* =================
@@ -110,9 +116,10 @@ strong { font-weight: 900; }
         width: 50%;
         min-height: 100vh;
     }
-
+    
     .main-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
 }
